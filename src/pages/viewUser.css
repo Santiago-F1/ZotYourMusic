@@ -1,0 +1,25 @@
+
+.SongName {
+    color: #ffffff;
+    background-color: #1e90ff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SongId {
+    color: #1e90ff;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Rating {
+    color: #ffffff;
+    background-color: #1e90ff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}

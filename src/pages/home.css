@@ -1,0 +1,76 @@
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fff, #d9d9d9);
+    overflow: hidden;
+}
+
+.background-image {
+    width: 50%;
+    height: 50%;
+    background-image: url('../images/Zot.png');
+    background-size: cover;
+    background-position: center;
+    animation: scroll-background 10s ease-in-out infinite;
+}
+
+@keyframes scroll-background {
+    0% {
+        background-position: 25% 25%;
+    }
+    100% {
+        background-position: 75% 75%;
+    }
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* Updated color to white */
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
+.fade-in {
+    animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cool-button {
+    background-color: #ffcc00; /* Updated color to gold */
+    color: #fff; /* Updated color to white */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cool-button:hover {
+    background-color: #ff9900; /* Updated color to a darker shade of gold */
+}
